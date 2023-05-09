@@ -25,6 +25,11 @@ let x = setInterval(function() {
   if (distance < 0) {
 	clearInterval(x);
 	document.getElementById("countdown").innerHTML = "¡La cuenta atrás ha terminado!";
+  confetti({
+  particleCount: 100,
+  spread: 70,
+  origin: { y: 0.6 }
+});
   }
 }, 1000);
 	
