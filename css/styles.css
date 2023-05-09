@@ -1,0 +1,147 @@
+@font-face {
+    font-family: Calamity;
+    src: url("Calamity_Outline.otf") format("opentype");
+}
+
+@font-face {
+    font-family: CalamityRegular;
+    src: url("Calamity_Regular.otf") format("opentype");
+}
+
+:root {
+    --primary-color: #FF5F1F;
+    --secondary-color: #7D7D7D;
+    --tertiary-color: #F7F7F7;
+    --quaternary-color: #191919;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: var(--quaternary-color);
+    font-family: 'Calamity';
+    font-size: 16px;
+    background-color: #FF5F1F;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Calamity';
+    padding: 2em;
+    background: var(--secondary-color);
+    background-color: #FF5F1F;
+   
+}
+
+header a {
+    text-decoration: none;
+}
+
+header a img.logo {
+    text-decoration: none;
+    max-width: 100%;
+    height: auto;
+    width: 20em;
+    transition: transform 0.5s ease;
+}
+
+header a:hover img {
+    transform: scale(1.1);
+}
+
+ button {
+    font-family: 'CalamityRegular';
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 1em;
+    color: black;
+    font-weight: bold;
+    font-size: 1em;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+    right: 20em;
+    top: 9em;
+    position: absolute;
+}
+
+ button:hover {
+    background-color: #dfc90a;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+}
+
+main section.mapa {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    margin: 2em;
+    border: 1px solid var(--secondary-color);
+    border-radius: 5px;
+    background-color: var(--tertiary-color);
+    box-shadow: 0 0 10px var(--secondary-color);
+    margin: 10em 0;
+
+}
+.contador{
+    background-color: #FF5F1F;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    margin-top: 3em;
+}
+.footer{
+    background: #888888;
+    padding: 20px;
+    margin-top: 20em;
+
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo-container img {
+    height:5em;
+    margin-left: 41em;
+  }
+  
+  .redes-sociales-container a {
+    color: #000000;
+    font-size: 20px;
+    margin-right: 10px;
+  }
+  .proximo{
+    font-size: 750%;
+    color: white;
+    
+  }
+  .proximo1{
+    font-size: 350%;
+    color: white;
+    
+  }
+
+  .redes{
+    size: 10px;
+    
+
+  }
+  
