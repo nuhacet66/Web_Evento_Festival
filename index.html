@@ -1,57 +1,611 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="./css/styles.css">
-  <link rel="stylesheet" type="text/css" href="./css/contador.css">
-	<title>Nexo Gaming Fest</title>
-	<link rel="shortcut icon" type="image/png" href="./img/nexo_gaming_fest_logo.ico"/>
-	
-</head>
-<body>
-  
-	<header>
-    <a href="./index.html">
-     <img class="logo" src="./img/nexogaming" alt="Nexo Gaming Fest">
-    </a>
-  </header>
-  
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <main>
-    <section class="banner">
-      
-          PROXIMAMENTE
-        
-      </section>
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-    <section id="countdown">
-     
-      <div class="countdown-item"><span id="days">00</span><span class="countdown-text">DIAS</span></div>
-      <div class="countdown-item" ><span id="hours">00</span><span class="countdown-text">HORAS</span></div>
-      <div class="countdown-item" ><span id="minutes">00</span><span class="countdown-text">MINUTOS</span></div>
-      <div class="countdown-item" ><span id="seconds">00</span><span class="countdown-text">SEGUNDOS</span></div>
-    </section>
+    <title>Nexo Gaming Fest</title>
 
-    <section class="localization">
-      
-      <h2 class="h2">ZARAGOZA</h2>
-    
-  </section>
-     
+    <!-- CSS FILES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;400;700&display=swap" rel="stylesheet">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="css/bootstrap-icons.css" rel="stylesheet">
+
+    <link href="css/templatemo-festava-live.css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="./images/LOGO2.jpg"/>
+
  
-    <section class="redes">
-      <a href="https://www.youtube.com/channel/UCA33oKV5kVVEmRUdZuJeDTg" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24" style="fill: #ffffff;transform: ;msFilter:;"><path d="M21.593 7.203a2.506 2.506 0 0 0-1.762-1.766C18.265 5.007 12 5 12 5s-6.264-.007-7.831.404a2.56 2.56 0 0 0-1.766 1.778c-.413 1.566-.417 4.814-.417 4.814s-.004 3.264.406 4.814c.23.857.905 1.534 1.763 1.765 1.582.43 7.83.437 7.83.437s6.265.007 7.831-.403a2.515 2.515 0 0 0 1.767-1.763c.414-1.565.417-4.812.417-4.812s.02-3.265-.407-4.831zM9.996 15.005l.005-6 5.207 3.005-5.212 2.995z"></path></svg></a>
-      <a href="https://www.instagram.com/nexogamingfest/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24" style="fill: #ffffff;transform: ;msFilter:;"><path d="M11.999 7.377a4.623 4.623 0 1 0 0 9.248 4.623 4.623 0 0 0 0-9.248zm0 7.627a3.004 3.004 0 1 1 0-6.008 3.004 3.004 0 0 1 0 6.008z"></path><circle cx="16.806" cy="7.207" r="1.078"></circle><path d="M20.533 6.111A4.605 4.605 0 0 0 17.9 3.479a6.606 6.606 0 0 0-2.186-.42c-.963-.042-1.268-.054-3.71-.054s-2.755 0-3.71.054a6.554 6.554 0 0 0-2.184.42 4.6 4.6 0 0 0-2.633 2.632 6.585 6.585 0 0 0-.419 2.186c-.043.962-.056 1.267-.056 3.71 0 2.442 0 2.753.056 3.71.015.748.156 1.486.419 2.187a4.61 4.61 0 0 0 2.634 2.632 6.584 6.584 0 0 0 2.185.45c.963.042 1.268.055 3.71.055s2.755 0 3.71-.055a6.615 6.615 0 0 0 2.186-.419 4.613 4.613 0 0 0 2.633-2.633c.263-.7.404-1.438.419-2.186.043-.962.056-1.267.056-3.71s0-2.753-.056-3.71a6.581 6.581 0 0 0-.421-2.217zm-1.218 9.532a5.043 5.043 0 0 1-.311 1.688 2.987 2.987 0 0 1-1.712 1.711 4.985 4.985 0 0 1-1.67.311c-.95.044-1.218.055-3.654.055-2.438 0-2.687 0-3.655-.055a4.96 4.96 0 0 1-1.669-.311 2.985 2.985 0 0 1-1.719-1.711 5.08 5.08 0 0 1-.311-1.669c-.043-.95-.053-1.218-.053-3.654 0-2.437 0-2.686.053-3.655a5.038 5.038 0 0 1 .311-1.687c.305-.789.93-1.41 1.719-1.712a5.01 5.01 0 0 1 1.669-.311c.951-.043 1.218-.055 3.655-.055s2.687 0 3.654.055a4.96 4.96 0 0 1 1.67.311 2.991 2.991 0 0 1 1.712 1.712 5.08 5.08 0 0 1 .311 1.669c.043.951.054 1.218.054 3.655 0 2.436 0 2.698-.043 3.654h-.011z"></path></svg></a>
-      <a href="https://www.twitch.tv/nexogamingfest" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24" style="fill: #ffffff;transform: ;msFilter:;"><path d="M4.265 3 3 6.236v13.223h4.502V21l2.531.85 2.392-2.391h3.658l4.923-4.924V3H4.265zm15.052 10.691-2.813 2.814h-4.502l-2.391 2.391v-2.391H5.813V4.688h13.504v9.003zm-2.812-5.767v4.923h-1.688V7.924h1.688zm-4.502 0v4.923h-1.688V7.924h1.688z"></path></svg></a>
-      <a href="https://twitter.com/NexoGamingFest" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24" style="fill: #ffffff;transform: ;msFilter:;"><path d="M19.633 7.997c.013.175.013.349.013.523 0 5.325-4.053 11.461-11.46 11.461-2.282 0-4.402-.661-6.186-1.809.324.037.636.05.973.05a8.07 8.07 0 0 0 5.001-1.721 4.036 4.036 0 0 1-3.767-2.793c.249.037.499.062.761.062.361 0 .724-.05 1.061-.137a4.027 4.027 0 0 1-3.23-3.953v-.05c.537.299 1.16.486 1.82.511a4.022 4.022 0 0 1-1.796-3.354c0-.748.199-1.434.548-2.032a11.457 11.457 0 0 0 8.306 4.215c-.062-.3-.1-.611-.1-.923a4.026 4.026 0 0 1 4.028-4.028c1.16 0 2.207.486 2.943 1.272a7.957 7.957 0 0 0 2.556-.973 4.02 4.02 0 0 1-1.771 2.22 8.073 8.073 0 0 0 2.319-.624 8.645 8.645 0 0 1-2.019 2.083z"></path></svg></a>
-      <a href="https://www.tiktok.com/@nexogamingfest" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24" style="fill: #ffffff;transform: ;msFilter:;"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1-.1z"></path></svg></a>
-  
-     </section>
+</head>
 
-</main>
-<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
-<script src="./js/up.js"></script>
+<body>
+
+    <main>
+
+        <!-- <header class="site-header">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-12 col-12 d-flex flex-wrap">
+                        <p class="d-flex me-4 mb-0">
+                            <i class="bi-person custom-icon me-2"></i>
+                            <strong class="text-dark"></strong>
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </header> -->
+
+
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a href="ticket.html" class="btn custom-btn d-lg-none ms-auto me-4">Comprar Ticket</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+
+                    <span class="navbar-toggler-icon"></span>
+
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav align-items-lg-center ms-auto me-lg-5" style="padding: 0em 7em">
+                        <li class="nav-item">
+                            <a class="nav-link click-scroll" href="#section_1">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link click-scroll" href="#section_2">Información</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link click-scroll" href="#section_3">Artistas</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link click-scroll" href="#section_4">Calendario</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link click-scroll" href="#section_5">Contacto</a>
+                        </li>
+                    </ul>
+                    <a href="ticket.html" class="btn custom-btn d-lg-block d-none">Comprar Ticket</a>
+                </div>
+            </div>
+        </nav>
+
+
+        <section class="hero-section" id="section_1">
+            <div class="section-overlay"></div>
+
+            <div class="container d-flex justify-content-center align-items-center">
+                <div class="row">
+
+                    <div class="col-12 mt-auto mb-5 text-center">
+
+                        <img src="./images/nexo_gaming_fest_text.png" class="img-fluid logo-image" alt="logo-image">
+
+                    </div>
+
+                    <div class="col-lg-12 col-12 mt-auto d-flex flex-column flex-lg-row text-center">
+                        <div class="date-wrap">
+                            <h5 class="text-white">
+                                <i class="custom-icon bi-clock me-2"></i>
+                                1 - 3 Sept 2023
+                            </h5>
+                        </div>
+
+                        <div class="location-wrap mx-auto py-3 py-lg-0">
+                            <h5 class="text-white">
+                                <i class="custom-icon bi-geo-alt me-2"></i>
+                                Feria de Zaragoza
+                            </h5>
+                        </div>
+
+                        <div class="social-share">
+                            <ul class="social-icon d-flex align-items-center justify-content-center">
+                                <span class="text-white me-3">Buscanos:</span>
+
+                                <li class="social-icon-item">
+                                    <a href="#" class="social-icon-link">
+                                        <span class="bi-facebook"></span>
+                                    </a>
+                                </li>
+
+                                <li class="social-icon-item">
+                                    <a href="#" class="social-icon-link">
+                                        <span class="bi-twitter"></span>
+                                    </a>
+                                </li>
+
+                                <li class="social-icon-item">
+                                    <a href="#" class="social-icon-link">
+                                        <span class="bi-instagram"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-wrap">
+                <video autoplay="" loop="" muted="" class="custom-video" poster="">
+                    <source src="video/Diseno_sin_titulo_1_video-converter.com.webm" type="video/mp4">
+
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </section>
+
+
+         <section class="about-section section-padding" id="section_2">
+            <div class="container">
+                <div class="row">
+
+                    
+
+
+                </div>
+            </div>
+        </section>
+
+
+        <section class="artists-section section-padding" id="section_3">
+            <div class="container">
+                <div class="row justify-content-center">
+
+                    <div class="col-12 text-center">
+                        <h2 class="mb-4">Meet Artists</h1>
+                    </div>
+
+                    <div class="col-lg-5 col-12">
+                        <div class="artists-thumb">
+                            <div class="artists-image-wrap">
+                                <img src="images/artists/joecalih-UmTZqmMvQcw-unsplash.jpg"
+                                    class="artists-image img-fluid">
+                            </div>
+
+                            <div class="artists-hover">
+                                <p>
+                                    <strong>Name:</strong>
+                                    Madona
+                                </p>
+
+                                <p>
+                                    <strong>Birthdate:</strong>
+                                    August 16, 1958
+                                </p>
+
+                                <p>
+                                    <strong>Music:</strong>
+                                    Pop, R&amp;B
+                                </p>
+
+                                <hr>
+
+                                <p class="mb-0">
+                                    <strong>Youtube Channel:</strong>
+                                    <a href="#">Madona Official</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-5 col-12">
+                        <div class="artists-thumb">
+                            <div class="artists-image-wrap">
+                                <img src="images/artists/abstral-official-bdlMO9z5yco-unsplash.jpg"
+                                    class="artists-image img-fluid">
+                            </div>
+
+                            <div class="artists-hover">
+                                <p>
+                                    <strong>Name:</strong>
+                                    Rihana
+                                </p>
+
+                                <p>
+                                    <strong>Birthdate:</strong>
+                                    Feb 20, 1988
+                                </p>
+
+                                <p>
+                                    <strong>Music:</strong>
+                                    Country
+                                </p>
+
+                                <hr>
+
+                                <p class="mb-0">
+                                    <strong>Youtube Channel:</strong>
+                                    <a href="#">Rihana Official</a>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="artists-thumb">
+                            <img src="images/artists/soundtrap-rAT6FJ6wltE-unsplash.jpg"
+                                class="artists-image img-fluid">
+
+                            <div class="artists-hover">
+                                <p>
+                                    <strong>Name:</strong>
+                                    Bruno Bros
+                                </p>
+
+                                <p>
+                                    <strong>Birthdate:</strong>
+                                    October 8, 1985
+                                </p>
+
+                                <p>
+                                    <strong>Music:</strong>
+                                    Pop
+                                </p>
+
+                                <hr>
+
+                                <p class="mb-0">
+                                    <strong>Youtube Channel:</strong>
+                                    <a href="#">Bruno Official</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <section class="schedule-section section-padding" id="section_4">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-12 text-center">
+                        <h2 class="text-white mb-4">Event Schedule</h1>
+
+                            <div class="table-responsive">
+                                <table class="schedule-table table table-dark">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">Date</th>
+
+                                            <th scope="col">Wednesday</th>
+
+                                            <th scope="col">Thursday</th>
+
+                                            <th scope="col">Friday</th>
+
+                                        </tr>
+                                    </thead>
+
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">Day 1</th>
+
+                                            <td class="table-background-image-wrap pop-background-image">
+                                                <h3>Pop Night</h3>
+
+                                                <p class="mb-2">5:00 - 7:00 PM</p>
+
+                                                <p>By Adele</p>
+
+                                                <div class="section-overlay"></div>
+                                            </td>
+
+                                            <td style="background-color: #F3DCD4"></td>
+
+                                            <td class="table-background-image-wrap rock-background-image">
+                                                <h3>Rock & Roll</h3>
+
+                                                <p class="mb-2">7:00 - 11:00 PM</p>
+
+                                                <p>By Rihana</p>
+
+                                                <div class="section-overlay"></div>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <th scope="row">Day 2</th>
+
+                                            <td style="background-color: #ECC9C7"></td>
+
+                                            <td>
+                                                <h3>DJ Night</h3>
+
+                                                <p class="mb-2">6:30 - 9:30 PM</p>
+
+                                                <p>By Rihana</p>
+                                            </td>
+
+                                            <td style="background-color: #D9E3DA"></td>
+                                        </tr>
+
+                                        <tr>
+                                            <th scope="row">Day 3</th>
+
+                                            <td class="table-background-image-wrap country-background-image">
+                                                <h3>Country Music</h3>
+
+                                                <p class="mb-2">4:30 - 7:30 PM</p>
+
+                                                <p>By Rihana</p>
+
+                                                <div class="section-overlay"></div>
+                                            </td>
+
+                                            <td style="background-color: #D1CFC0"></td>
+
+                                            <td>
+                                                <h3>Free Styles</h3>
+
+                                                <p class="mb-2">6:00 - 10:00 PM</p>
+
+                                                <p>By Members</p>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- <section class="pricing-section section-padding section-bg" id="section_5">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-8 col-12 mx-auto">
+                        <h2 class="text-center mb-4">Plans, you' love</h2>
+                    </div>
+
+                    <div class="col-lg-6 col-12">
+                        <div class="pricing-thumb">
+                            <div class="d-flex">
+                                <div>
+                                    <h3><small>Early Bird</small> $120</h3>
+
+                                    <p>Including good things:</p>
+                                </div>
+
+                                <p class="pricing-tag ms-auto">Save up to <span>50%</span></h2>
+                            </div>
+
+                            <ul class="pricing-list mt-3">
+                                <li class="pricing-list-item">platform for potential customers</li>
+
+                                <li class="pricing-list-item">digital experience</li>
+
+                                <li class="pricing-list-item">high-quality sound</li>
+
+                                <li class="pricing-list-item">standard content</li>
+                            </ul>
+
+                            <a class="link-fx-1 color-contrast-higher mt-4" href="ticket.html">
+                                <span>Buy Ticket</span>
+                                <svg class="icon" viewBox="0 0 32 32" aria-hidden="true">
+                                    <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                                        <circle cx="16" cy="16" r="15.5"></circle>
+                                        <line x1="10" y1="18" x2="16" y2="12"></line>
+                                        <line x1="16" y1="12" x2="22" y2="18"></line>
+                                    </g>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-12 mt-4 mt-lg-0">
+                        <div class="pricing-thumb">
+                            <div class="d-flex">
+                                <div>
+                                    <h3><small>Standard</small> $240</h3>
+
+                                    <p>What makes a premium festava?</p>
+                                </div>
+                            </div>
+
+                            <ul class="pricing-list mt-3">
+                                <li class="pricing-list-item">platform for potential customers</li>
+
+                                <li class="pricing-list-item">digital experience</li>
+
+                                <li class="pricing-list-item">high-quality sound</li>
+
+                                <li class="pricing-list-item">premium content</li>
+
+                                <li class="pricing-list-item">live chat support</li>
+                            </ul>
+
+                            <a class="link-fx-1 color-contrast-higher mt-4" href="ticket.html">
+                                <span>Buy Ticket</span>
+                                <svg class="icon" viewBox="0 0 32 32" aria-hidden="true">
+                                    <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                                        <circle cx="16" cy="16" r="15.5"></circle>
+                                        <line x1="10" y1="18" x2="16" y2="12"></line>
+                                        <line x1="16" y1="12" x2="22" y2="18"></line>
+                                    </g>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section> -->
+
+
+        <section class="contact-section section-padding" id="section_6">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-8 col-12 mx-auto">
+                        <h2 class="text-center mb-4">Si tienes cualquier duda, contáctanos</h2>
+
+                        <nav class="d-flex justify-content-center">
+                            <div class="nav nav-tabs align-items-baseline justify-content-center" id="nav-tab"
+                                role="tablist">
+                                <button class="nav-link active" id="nav-ContactForm-tab" data-bs-toggle="tab"
+                                    data-bs-target="#nav-ContactForm" type="button" role="tab"
+                                    aria-controls="nav-ContactForm" aria-selected="false">
+                                    <h5>Formulario de Contacto</h5>
+                                </button>
+
+                                <button class="nav-link" id="nav-ContactMap-tab" data-bs-toggle="tab"
+                                    data-bs-target="#nav-ContactMap" type="button" role="tab"
+                                    aria-controls="nav-ContactMap" aria-selected="false">
+                                    <h5>Google Maps</h5>
+                                </button>
+                            </div>
+                        </nav>
+
+                        <div class="tab-content shadow-lg mt-5" id="nav-tabContent">
+                            <div class="tab-pane fade show active" id="nav-ContactForm" role="tabpanel"
+                                aria-labelledby="nav-ContactForm-tab">
+                                <form class="custom-form contact-form mb-5 mb-lg-0" action="#" method="post"
+                                    role="form">
+                                    <div class="contact-form-body">
+                                        <div class="row">
+                                            <div class="col-lg-6 col-md-6 col-12">
+                                                <input type="text" name="contact-name" id="contact-name"
+                                                    class="form-control" placeholder="Nombre Completo" required>
+                                            </div>
+
+                                            <div class="col-lg-6 col-md-6 col-12">
+                                                <input type="email" name="contact-email" id="contact-email"
+                                                    pattern="[^ @]*@[^ @]*" class="form-control"
+                                                    placeholder="Correo Electrónico" required>
+                                            </div>
+                                        </div>
+
+                                        <input type="text" name="contact-company" id="contact-company"
+                                            class="form-control" placeholder="Concepto" required>
+
+                                        <textarea name="contact-message" rows="3" class="form-control"
+                                            id="contact-message" placeholder="Mensaje"></textarea>
+
+                                        <div class="col-lg-4 col-md-10 col-8 mx-auto">
+                                            <button type="submit" class="form-control">Enviar Mensaje</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+
+                            <div class="tab-pane fade" id="nav-ContactMap" role="tabpanel"
+                                aria-labelledby="nav-ContactMap-tab">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2982.1411052302906!2d-0.9813468845666325!3d41.63108132924259!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd596a2a263f87bd%3A0x898f0dbb590b7405!2sFeria%20De%20Zaragoza!5e0!3m2!1ses!2ses!4v1684953264546!5m2!1ses!2ses" width="760" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                <!-- You can easily copy the embed code from Google Maps -> Share -> Embed a map // -->
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <footer class="site-footer">
+        <div class="site-footer-top">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-6 col-12">
+                        <h2 class="text-white mb-lg-0">Nexo Gaming Fest</h2>
+                    </div>
+
+                    <div class="col-lg-6 col-12 d-flex justify-content-lg-end align-items-center">
+                        <ul class="social-icon d-flex justify-content-lg-end">
+                            <li class="social-icon-item">
+                                <a href="#" class="social-icon-link">
+                                    <span class="bi-twitter"></span>
+                                </a>
+                            </li>
+
+                            <li class="social-icon-item">
+                                <a href="#" class="social-icon-link">
+                                    <span class="bi-apple"></span>
+                                </a>
+                            </li>
+
+                            <li class="social-icon-item">
+                                <a href="#" class="social-icon-link">
+                                    <span class="bi-instagram"></span>
+                                </a>
+                            </li>
+
+                            <li class="social-icon-item">
+                                <a href="#" class="social-icon-link">
+                                    <span class="bi-youtube"></span>
+                                </a>
+                            </li>
+
+                            <li class="social-icon-item">
+                                <a href="#" class="social-icon-link">
+                                    <span class="bi-pinterest"></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="site-footer-bottom">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-3 col-12 mt-5">
+                        <p class="copyright-text">Copyright © 2023 Nexo Gaming Fest</p>
+                    </div>
+
+                    <div class="col-lg-8 col-12 mt-lg-5">
+                        <ul class="site-footer-links">
+                            <li class="site-footer-link-item">
+                                <a href="#" class="site-footer-link">Terms &amp; Conditions</a>
+                            </li>
+
+                            <li class="site-footer-link-item">
+                                <a href="#" class="site-footer-link">Privacy Policy</a>
+                            </li>
+
+                            <li class="site-footer-link-item">
+                                <a href="#" class="site-footer-link">Your Feedback</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!--
+
+T e m p l a t e M o
+
+-->
+
+    <!-- JAVASCRIPT FILES -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/click-scroll.js"></script>
+    <script src="js/custom.js"></script>
+
 </body>
+
 </html>
