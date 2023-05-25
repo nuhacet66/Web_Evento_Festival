@@ -56,10 +56,12 @@ button > tool-tip {
 	padding: 0.5rem 1rem;
 	font-size: 0.8rem;
 	border-radius: 8px;
-	top: 100%;
+	top: -150%;
 	left: 12.5%;
 	opacity: 0;
 	transition: opacity 0.3s ease-in-out;
+	color: var(--primary-color);
+	background-color: var(--white-color);
 }
 
 button:has(tool-tip) {
