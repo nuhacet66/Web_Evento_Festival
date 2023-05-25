@@ -47,8 +47,11 @@
 
 			<nav class="navbar navbar-expand-lg">
 				<div class="container">
-					<a href="#" class="btn custom-btn d-lg-none ms-auto me-4">
-						Comprar Ticket<br /><span id="ticket-counter"></span>
+					<a
+						href="#"
+						class="btn custom-btn d-lg-none ms-auto me-4 text-uppercase"
+					>
+						Comprar Ticket<br /><span id="ticket-counter"> 00h 00m 00s </span>
 					</a>
 					<button
 						class="navbar-toggler"
@@ -90,9 +93,9 @@
 								<a class="nav-link click-scroll" href="#section_6">Contacto</a>
 							</li>
 						</ul>
-						<a href="ticket.html" class="btn custom-btn d-lg-block d-none"
-							>Comprar Ticket</a
-						>
+						<a href="#" class="btn custom-btn d-lg-block d-none text-uppercase">
+							Comprar Ticket<br /><span id="ticket-counter"> 00h 00m 00s </span>
+						</a>
 					</div>
 				</div>
 			</nav>
@@ -191,9 +194,12 @@
 			<section class="about-section section-padding" id="section_2">
 				<div class="container">
 					<div class="row">
-						<div class="col-10 progress bg-transparent" style="height: 38px">
+						<div
+							class="col-12 col-md-10 progress bg-transparent"
+							style="height: 38px"
+						>
 							<div
-								class="progress-bar"
+								class="progress-bar-striped"
 								role="progressbar"
 								style="width: 25%"
 								aria-valuenow="15"
@@ -201,7 +207,7 @@
 								aria-valuemax="100"
 							></div>
 							<div
-								class="progress-bar-striped bg-success mx-1"
+								class="progress-bar mx-1"
 								role="progressbar"
 								style="width: 25%"
 								aria-valuenow="30"
@@ -209,7 +215,7 @@
 								aria-valuemax="100"
 							></div>
 							<div
-								class="progress-bar bg-info"
+								class="progress-bar"
 								role="progressbar"
 								style="width: 25%"
 								aria-valuenow="20"
@@ -217,7 +223,7 @@
 								aria-valuemax="100"
 							></div>
 							<div
-								class="progress-bar bg-danger mx-1"
+								class="progress-bar mx-1"
 								role="progressbar"
 								style="width: 25%"
 								aria-valuenow="20"
@@ -225,13 +231,18 @@
 								aria-valuemax="100"
 							></div>
 						</div>
-						<button class="col-2 btn btn-primary">
-							¡Colabora!
-							<tool-tip role="tooltip">
-								<i class="bi bi-instagram"></i>
-								<span id="instagram-followers"></span>
-							</tool-tip>
-						</button>
+						<div class="col-12 col-md-2 mt-md-0 mt-3">
+							<a
+								href="https:/instagram.com/nexogamingfest"
+								class="btn hype-link text-uppercase"
+							>
+								¡Colabora!
+								<tool-tip role="tooltip text-uppercase">
+									<i class="bi bi-instagram"></i>
+									<span id="instagram-followers">90</span> seguidores
+								</tool-tip>
+							</a>
+						</div>
 					</div>
 				</div>
 			</section>
