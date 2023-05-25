@@ -95,36 +95,33 @@ a:has(tool-tip):hover tool-tip {
 
 @font-face {
 	font-family: "AbelProBolt";
-	src: url("/fonts/Abel-Pro-Bold.otf") format("truetype");
+	src: url("./fonts/Abel-Pro-Bold.otf") format("truetype");
 	font-style: normal;
 	font-weight: normal;
-  }
-  @font-face {
-	font-family: "AbelPro";
-	src: url("/fonts/Abel-Pro.otf") format("truetype");
-	font-style: normal;
-	font-weight: normal;
-  }
-  @font-face {
-	font-family: "calamityOutline";
-	src: url("/fonts/Calamity_Outline.otf") format("truetype");
-	font-style: normal;
-	font-weight: normal;
-  }
-
+}
 @font-face {
-  font-family: "CalamityRegular";
-  src: url("/fonts/Calamity_Regular.otf") format("truetype");
-  font-style: normal;
-  font-weight: normal;
+	font-family: "AbelPro";
+	src: url("./fonts/Abel-Pro.otf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "calamityOutline";
+	src: url("./fonts/Calamity_Outline.otf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
 }
 
-
+@font-face {
+	font-family: "CalamityRegular";
+	src: url("./fonts/Calamity_Regular.otf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
 
 /*---------------------------------------
   TYPOGRAPHY
 -----------------------------------------*/
-
 
 h2,
 h3,
