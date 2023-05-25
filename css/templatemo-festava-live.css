@@ -12,6 +12,7 @@
 	--p-color: #717275;
 	--border-color: #7fffd4;
 	--link-hover-color: #ff5f1f;
+	--hype-color: #e0ff00;
 
 	--body-font-family: "Outfit", sans-serif;
 
@@ -49,7 +50,7 @@ body {
 
 a > tool-tip {
 	position: absolute;
-	z-index: 1;
+	z-index: 10;
 	pointer-events: none;
 	user-select: none;
 	box-shadow: 0 0 10px #0000004d;
@@ -72,20 +73,35 @@ a:has(tool-tip):hover tool-tip {
 	opacity: 1;
 }
 
+.text-primary {
+	color: var(--primary-color) !important;
+	font-weight: var(--font-weight-bold);
+}
+
 .hype-link {
-	background-color: #e0ff00;
+	background-color: var(--hype-color);
 	border-radius: 0;
 }
 
 .hype-link:hover {
-	background-color: #e0ff00;
+	background-color: var(--hype-color);
+}
+
+.progress {
+	background-color: #ff9f79;
+	padding: 2px;
+	border-radius: 0;
+}
+
+.progress-active {
+	background-color: var(--white-color);
 }
 
 .progress-bar {
-	background-color: #ff7848;
+	background-color: var(--hype-color);
 }
 
-.progress-bar-striped {
+.progress-bar-active {
 	background-color: var(--primary-color);
 }
 
@@ -570,11 +586,7 @@ strong {
   ABOUT
 -----------------------------------------*/
 .about-section {
-	background-image: url("../images/edward-unsplash-blur.jpg");
-	background-color: #704010;
-	background-repeat: no-repeat;
-	background-size: cover;
-	position: relative;
+	background-color: var(--primary-color);
 }
 
 .about-image {
