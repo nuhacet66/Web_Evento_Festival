@@ -1,0 +1,43 @@
+body {
+   
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 4rem;
+    margin-top: 3rem;
+  }
+  
+  p {
+    font-size: 2rem;
+  }
+  
+  #countdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.3rem;
+    flex-wrap: wrap;
+  }
+  
+  .countdown-item {
+    font-family: 'CalamityRegular';
+    border-radius: 100%;
+    color: #ffffff;
+    padding: 10px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  .countdown-text{
+    color: #ffffff;
+    position: absolute;
+    bottom: 1em;
+    font-size: 0.5em;
+    font-family: 'AbelProBolt';
+  }
+  
