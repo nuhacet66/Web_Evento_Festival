@@ -914,14 +914,12 @@ strong {
 .site-footer-top {
 	background-color: var(--secondary-color);
 	background-repeat: no-repeat;
-	margin-bottom: 70px;
 	padding-top: 30px;
 	padding-bottom: 30px;
 }
 
 .site-footer-bottom {
 	border-top: 1px solid #1f1c1c;
-	margin-top: 60px;
 }
 
 .site-footer-title {
