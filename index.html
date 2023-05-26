@@ -164,12 +164,17 @@
 				</div>
 
 				<div class="video-wrap">
-					<video autoplay="" loop="" muted="" class="custom-video" poster="">
+					<video id="BgVideo" autoplay muted muted class="custom-video">
 						<source
 							src="video/Diseno_sin_titulo_1_video-converter.com.webm"
-							type="video/mp4"
+							type="video/webm"
 						/>
 					</video>
+					<script>
+						var bgvideo = document.getElementById("BgVideo");
+						bgvideo.muted = true;
+						bgvideo.play();
+					</script>
 				</div>
 			</section>
 
