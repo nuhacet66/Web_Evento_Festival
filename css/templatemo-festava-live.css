@@ -40,16 +40,15 @@ body {
 	font-family: var(--body-font-family);
 }
 
-.banner{
-    font-size:4em;
-    font-family: 'CalamityRegular';
-    color:var(--primary-color);
-    letter-spacing: 3px;
-        display: flex;
-    justify-content: center;
-    background-color:var(--white-color);
-    padding: 0.01em 0.5em;
-    
+.banner {
+	font-size: 4em;
+	font-family: "CalamityRegular";
+	color: var(--primary-color);
+	letter-spacing: 3px;
+	display: flex;
+	justify-content: center;
+	background-color: var(--white-color);
+	padding: 0.01em 0.5em;
 }
 
 /*---------------------------------------
@@ -69,7 +68,7 @@ a > tool-tip {
 	padding: 0.5rem 1rem;
 	font-size: 0.9rem;
 	border-radius: 8px;
-	top: -180%;
+	top: 120%;
 	left: 0.5%;
 	opacity: 0;
 	transition: opacity 0.3s ease-in-out;
@@ -176,23 +175,23 @@ h2 {
 	font-size: var(--h2-font-size);
 }
 
-h2 .calamityOutline{
-	font-family: 'calamityOutline';
+h2 .calamityOutline {
+	font-family: "calamityOutline";
 }
-h2 .abelPro{
-	font-family: 'AbelProBolt';
-}
-
-h2 .calamityRegular{
-	font-family: 'CalamityRegular';
+h2 .abelPro {
+	font-family: "AbelProBolt";
 }
 
-h2 .abelProBolt{
-	font-family: 'AbelProBolt';
+h2 .calamityRegular {
+	font-family: "CalamityRegular";
 }
 
-h5 .abelPro{
-	font-family: 'AbelPro';
+h2 .abelProBolt {
+	font-family: "AbelProBolt";
+}
+
+h5 .abelPro {
+	font-family: "AbelPro";
 }
 
 h3 {
