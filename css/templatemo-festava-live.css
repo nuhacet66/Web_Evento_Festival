@@ -92,6 +92,7 @@ a:has(tool-tip):hover tool-tip {
 .hype-link {
 	background-color: var(--hype-color);
 	border-radius: 0;
+	font-family: "AbelProBolt";
 }
 
 .hype-link:hover {
@@ -114,6 +115,11 @@ a:has(tool-tip):hover tool-tip {
 
 .progress-bar-active {
 	background-color: var(--primary-color);
+}
+
+.banner {
+	padding: 10px;
+	font-size: 2rem;
 }
 
 /*---------------------------------------
