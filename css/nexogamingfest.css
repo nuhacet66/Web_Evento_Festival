@@ -11,7 +11,7 @@
 	--link-hover-color: #ff5f1f;
 	--hype-color: #e0ff00;
 
-	--body-font-family: "AbelPro";
+	--body-font-family: "AbelProBolt";
 
 	--h1-font-size: 74px;
 	--h2-font-size: 46px;
@@ -34,7 +34,7 @@
 
 body {
 	background-color: var(--white-color);
-	font-family: var(--body-font-family);
+	font-family: "AbelProBolt";
 }
 
 .banner {
@@ -749,6 +749,13 @@ strong {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
+}
+.schedule-section2 {
+	background-color: #ffffff;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	color:#ff5f1f ;
 }
 .table-responsive {
 	filter: drop-shadow(2px 2px 4px #606060);
