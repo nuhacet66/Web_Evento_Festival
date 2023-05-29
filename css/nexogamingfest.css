@@ -887,7 +887,7 @@ strong {
 .custom-form button[type="submit"] {
 	background: var(--custom-btn-bg-color);
 	border: none;
-	border-radius: var(--border-radius-large);
+	
 	color: var(--white-color);
 	font-size: var(--p-font-size);
 	font-weight: var(--font-weight-medium);
