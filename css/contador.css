@@ -1,5 +1,12 @@
+@font-face {
+	font-family: "AbelProBolt";
+	src: url("./../fonts/Abel-Pro-Bold.otf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
 body {
-	font-family: Arial, sans-serif;
+	font-family: 'AbelProBolt';
 	text-align: center;
 }
 
