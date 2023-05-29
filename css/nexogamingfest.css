@@ -119,6 +119,15 @@ a:has(tool-tip):hover tool-tip {
 	font-size: 1.5rem;
 }
 
+.torneo_link {
+	opacity: 0.8;
+	transition: opacity 0.3s ease-in-out;
+}
+
+.torneo_link:hover {
+	opacity: 1;
+}
+
 /*---------------------------------------
   TYPOGRAPHY
 -----------------------------------------*/
@@ -368,7 +377,6 @@ strong {
 }
 
 .nav-tabs .nav-link {
-	
 	border: 0;
 	padding: 15px 25px;
 	transition: all 0.3s;
@@ -755,7 +763,7 @@ strong {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-	color:#ff5f1f ;
+	color: #ff5f1f;
 }
 .table-responsive {
 	filter: drop-shadow(2px 2px 4px #606060);
@@ -894,7 +902,7 @@ strong {
 .custom-form button[type="submit"] {
 	background: var(--custom-btn-bg-color);
 	border: none;
-	
+
 	color: var(--white-color);
 	font-size: var(--p-font-size);
 	font-weight: var(--font-weight-medium);
