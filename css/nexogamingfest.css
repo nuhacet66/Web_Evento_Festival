@@ -779,7 +779,6 @@ strong {
 }
 
 .schedule-table {
-	border-radius: var(--border-radius-medium);
 	position: relative;
 	overflow: hidden;
 }
@@ -807,10 +806,6 @@ strong {
 .schedule-table thead th {
 	border-right: 1px solid #c7460a;
 	border-bottom-color: transparent;
-}
-
-.schedule-table th + td {
-	border-bottom: 0;
 }
 
 .schedule-table thead th:last-child {
