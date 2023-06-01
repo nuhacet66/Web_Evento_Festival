@@ -128,6 +128,14 @@ a:has(tool-tip):hover tool-tip {
 	opacity: 0.8;
 }
 
+.bg-changed {
+	background-color: var(--primary-color);
+}
+
+.changed {
+	transform: rotate(-2deg);
+}
+
 /*---------------------------------------
   TYPOGRAPHY
 -----------------------------------------*/
@@ -765,6 +773,7 @@ strong {
 	background-size: cover;
 	color: #ff5f1f;
 }
+
 .table-responsive {
 	filter: drop-shadow(2px 2px 4px #606060);
 }
