@@ -146,14 +146,14 @@ body {
 -----------------------------------------*/
 
 @font-face {
-	font-family: "AbelProBolt";
-	src: url("./../fonts/Abel-Pro-Bold.otf") format("truetype");
+	font-family: "RobotoBlack";
+	src: url("./../fonts/Roboto-Black.ttf") format("truetype");
 	font-style: normal;
 	font-weight: normal;
 }
 @font-face {
-	font-family: "AbelPro";
-	src: url("./../fonts/Abel-Pro.otf") format("truetype");
+	font-family: "RobotoBold";
+	src: url("./../fonts/Roboto-Bold.ttf") format("truetype");
 	font-style: normal;
 	font-weight: normal;
 }
