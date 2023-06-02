@@ -844,6 +844,7 @@ table {
 .schedule-table th {
 	background-color: var(--custom-btn-bg-color);
 	color: var(--white-color);
+	font-size: 25px;
 }
 
 .table-background-image-wrap {
