@@ -829,6 +829,7 @@ table {
 .schedule-table tr:last-child th,
 .schedule-table tr:last-child td {
 	border-bottom-color: transparent;
+	font-size: 25px;
 }
 
 .schedule-table thead th {
