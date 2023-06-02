@@ -840,6 +840,7 @@ td > p {
 
 .schedule-table th {
 	background-color: var(--custom-btn-bg-color);
+	color: var(--white-color);
 }
 
 .table-background-image-wrap {
