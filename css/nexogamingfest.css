@@ -32,6 +32,11 @@
 	--font-weight-bold: 700;
 }
 
+html {
+	margin: 0;
+	padding: 0;
+}
+
 body {
 	background-color: var(--white-color);
 	font-family: "AbelProBolt";
@@ -459,17 +464,18 @@ strong {
 	background: var(--secondary-color);
 	border: 2px solid transparent;
 	border-radius: var(--border-radius-large);
-	color: var(--link-hover-color);
+	color: var(--dark-color);
 	font-size: var(--btn-font-size);
 	font-weight: var(--font-weight-bold);
 	line-height: normal;
-	transition: all 0.3s;
 	padding: 10px 20px;
+	text-transform: uppercase;
+	transition: all 0.3s ease-in-out;
 }
 
 .custom-btn:hover {
-	background: var(--custom-btn-bg-hover-color);
 	color: var(--white-color);
+	scale: 1.1;
 }
 
 .custom-border-btn {
@@ -634,7 +640,7 @@ strong {
 	position: relative;
 	overflow: hidden;
 	padding-top: 100px;
-	height: calc(100vh - 51px);
+	height: 100vh;
 }
 
 .hero-section small {
@@ -1018,11 +1024,11 @@ strong {
 	width: 35px;
 	height: 35px;
 	line-height: 36px;
+	font-size: 30px;
 	transition: background 0.2s, color 0.2s;
 }
 
 .social-icon-link:hover {
-	background: var(--primary-color);
 	color: var(--white-color);
 }
 
