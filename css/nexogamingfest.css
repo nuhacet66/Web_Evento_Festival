@@ -808,6 +808,9 @@ td > p {
 	position: relative;
 	overflow: hidden;
 }
+table {
+	border-collapse: inherit !important;
+	}
 
 .schedule-table .bg-warning {
 	background: #f0a5a5 !important;
@@ -842,6 +845,7 @@ td > p {
 	background-color: var(--custom-btn-bg-color);
 	color: var(--white-color);
 }
+
 
 .table-background-image-wrap {
 	background-repeat: no-repeat;
