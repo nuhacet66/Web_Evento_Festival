@@ -40,6 +40,7 @@ html {
 body {
 	background-color: var(--white-color);
 	font-family: "AbelProBolt";
+ 
 }
 
 .banner {
@@ -674,7 +675,8 @@ strong {
   ABOUT
 -----------------------------------------*/
 .about-section {
-	background-color: var(--primary-color);
+	background-image: url(./../images/COMPRA_TUS_ENTRADAS.svg);
+	width: 100%;
 }
 
 .about-image {
@@ -974,7 +976,7 @@ strong {
 }
 
 .site-footer-top {
-	background-color: var(--custom-btn-bg-color);
+	background-image: url(./../images/COMPRA_TUS_ENTRADAS.svg);
 	background-repeat: no-repeat;
 	padding-top: 30px;
 	padding-bottom: 30px;
