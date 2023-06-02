@@ -68,7 +68,7 @@ body {
 
 .hype-link {
 	background-color: var(--hype-color);
-	color: var(--custom-btn-bg-color) !important;
+	color: var(--dark-color) !important;
 	border-radius: 0;
 	font-family: "AbelProBolt";
 }
