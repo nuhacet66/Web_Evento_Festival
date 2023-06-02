@@ -71,10 +71,12 @@ body {
 	color: var(--dark-color) !important;
 	border-radius: 0;
 	font-family: "AbelProBolt";
+	transition: all 0.3s ease-in-out;
 }
 
 .hype-link:hover {
-	background-color: var(--primary-color);
+	background-color: var(--hype-color);
+	scale: 1.1;
 }
 
 .progress {
@@ -807,7 +809,7 @@ strong {
 }
 
 .schedule-table thead th {
-	background-color:#8404e8;
+	background-color: #8404e8;
 }
 
 .schedule-table th,
