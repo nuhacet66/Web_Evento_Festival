@@ -367,7 +367,6 @@ strong {
 }
 
 .section-overlay {
-	background-color: var(--dark-color);
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -810,7 +809,7 @@ td > p {
 }
 table {
 	border-collapse: inherit !important;
-	}
+}
 
 .schedule-table .bg-warning {
 	background: #f0a5a5 !important;
@@ -845,7 +844,6 @@ table {
 	background-color: var(--custom-btn-bg-color);
 	color: var(--white-color);
 }
-
 
 .table-background-image-wrap {
 	background-repeat: no-repeat;
