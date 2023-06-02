@@ -2,6 +2,10 @@ body {
 	background-color: black;
 	color: aliceblue;
 }
+
+header {
+	color: white;
+}
 .logo {
 	float: left;
 	margin-right: 10px;
