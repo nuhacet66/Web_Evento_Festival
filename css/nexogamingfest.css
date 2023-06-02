@@ -833,6 +833,10 @@ strong {
 	border-right-color: transparent;
 }
 
+.schedule-table th {
+	background-color: #8404e8;
+}
+
 .table-background-image-wrap {
 	background-repeat: no-repeat;
 	background-position: center;
