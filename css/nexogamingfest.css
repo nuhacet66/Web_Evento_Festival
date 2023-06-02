@@ -11,7 +11,7 @@
 	--link-hover-color: #ff5f1f;
 	--hype-color: #e0ff00;
 
-	--body-font-family: "AbelProBolt";
+	--body-font-family: "RobotoBold";
 
 	--h1-font-size: 74px;
 	--h2-font-size: 46px;
@@ -39,7 +39,7 @@ html {
 
 body {
 	background-color: var(--white-color);
-	font-family: "AbelProBolt";
+	font-family: "RobotoBold";
 }
 
 .banner {
@@ -70,7 +70,7 @@ body {
 	background-color: var(--hype-color);
 	color: var(--dark-color) !important;
 	border-radius: 0;
-	font-family: "AbelProBolt";
+	font-family: "RobotoBold";
 	transition: all 0.3s ease-in-out;
 }
 
@@ -204,7 +204,7 @@ h2 .calamityOutline {
 	font-family: "calamityOutline";
 }
 h2 .abelPro {
-	font-family: "AbelProBolt";
+	font-family: "RobotoBold";
 }
 
 h2 .calamityRegular {
@@ -212,11 +212,11 @@ h2 .calamityRegular {
 }
 
 h2 .abelProBolt {
-	font-family: "AbelProBolt";
+	font-family: "RobotoBold";
 }
 
 h5 .abelPro {
-	font-family: "AbelPro";
+	font-family: "RobotoBlack";
 }
 
 h3 {
