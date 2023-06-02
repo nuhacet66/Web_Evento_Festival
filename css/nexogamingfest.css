@@ -40,7 +40,6 @@ html {
 body {
 	background-color: var(--white-color);
 	font-family: "AbelProBolt";
- 
 }
 
 .banner {
@@ -60,31 +59,6 @@ body {
 .logo-image {
 	max-width: 50%;
 	height: auto;
-}
-
-a > tool-tip {
-	position: absolute;
-	z-index: 10;
-	pointer-events: none;
-	user-select: none;
-	box-shadow: 0 0 10px #0000004d;
-	padding: 0.5rem 1rem;
-	font-size: 0.9rem;
-	border-radius: 8px;
-	top: 120%;
-	left: 0.5%;
-	opacity: 0;
-	transition: opacity 0.3s ease-in-out;
-	color: var(--primary-color);
-	background-color: var(--white-color);
-}
-
-a:has(tool-tip) {
-	position: relative;
-}
-
-a:has(tool-tip):hover tool-tip {
-	opacity: 1;
 }
 
 .text-primary {
