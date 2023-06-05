@@ -1,13 +1,33 @@
 body {
 	background-color: black;
 	color: aliceblue;
+	background-image: url(./../images/rombos.webp);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
 }
 
 header {
 	color: white;
 }
-.logo {
-	float: left;
-	margin-right: 10px;
-	width: 25%;
+
+.cards-wrapper {
+	display: flex;
+	justify-content: center;
+}
+
+.card img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.card {
+	margin: 0 0.5em;
+	border: none;
+	border-radius: 0;
+}
+
+.carousel-inner {
+	padding: 1em;
 }

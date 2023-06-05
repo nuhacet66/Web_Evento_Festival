@@ -16,7 +16,7 @@ p {
 	justify-content: center;
 	align-items: center;
 	flex-wrap: wrap;
-	font-size: 2rem;
+	font-size: 3rem;
 	margin-bottom: 1rem;
 }
 
@@ -30,7 +30,7 @@ p {
 	justify-content: center;
 	align-items: center;
 	position: relative;
-	background-color: black;
+	background-color: #000000c1;
 }
 .countdown-text {
 	color: #ffffff;
