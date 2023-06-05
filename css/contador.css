@@ -1,7 +1,4 @@
-
-
 body {
-	
 	text-align: center;
 }
 
@@ -25,7 +22,6 @@ p {
 
 .countdown-item {
 	font-family: "CalamityRegular";
-	border-radius: 100%;
 	color: #ffffff;
 	padding: 10px;
 	width: 150px;
@@ -34,6 +30,7 @@ p {
 	justify-content: center;
 	align-items: center;
 	position: relative;
+	background-color: black;
 }
 .countdown-text {
 	color: #ffffff;
