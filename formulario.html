@@ -28,10 +28,26 @@
 		<link href="css/bootstrap.min.css" rel="stylesheet" />
 		<link href="css/bootstrap-icons.css" rel="stylesheet" />
 		<link href="css/nexogamingfest.css" rel="stylesheet" />
-		
 		<link href="./css/contador.css" rel="stylesheet" />
-	</head>
+		<link rel="stylesheet" href="./css/style.css" />
+		<style>
+			.memo-icon {
+				font-size: 1.5rem;
+				color: #fff;
+				text-decoration: none;
+			}
 
+			.memo-icon::before {
+				content: "📝";
+				margin-right: 0.5rem;
+			}
+
+			.memo-icon:hover {
+				color: #fff;
+				text-decoration: underline;
+			}
+		</style>
+	</head>
 	<body>
 		<header class="position-absolute z-3 w-100" style="top: 50px">
 			<nav class="navbar navbar-expand-lg navbar-light w-100">
@@ -73,9 +89,9 @@
 								Estrellas
 							</a>
 							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-								<a class="dropdown-item" href="./artistas.html">Artistas</a>
+								<a class="dropdown-item" href="./artistas.html">🎤 Artistas</a>
 								<a class="dropdown-item" href="./influencers.html"
-									>Influencers</a
+									>📷 Influencers</a
 								>
 							</div>
 						</li>
@@ -92,13 +108,17 @@
 								Actividades
 							</a>
 							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-								<a class="dropdown-item" href="./colaboradores.html">Cosplay</a>
-								<a class="dropdown-item" href="./magic.html">Magic</a>
+								<a class="dropdown-item" href="./colaboradores.html"
+									>🎭 Cosplay</a
+								>
+								<a class="dropdown-item" href="./magic.html">🃏 Magic</a>
 
-								<a class="dropdown-item" href="./basket.html">Baloncesto</a>
-								<a class="dropdown-item" href="./futbol.html">Fútbol Street</a>
+								<a class="dropdown-item" href="./basket.html">🏀 Baloncesto</a>
+								<a class="dropdown-item" href="./futbol.html"
+									>⚽ Fútbol Street</a
+								>
 								<a class="dropdown-item" href="./proximamente.html"
-									>Scape Room</a
+									>🔒 Escape Room</a
 								>
 							</div>
 						</li>
@@ -115,9 +135,11 @@
 								Esports
 							</a>
 							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-								<a class="dropdown-item" href="./torneos.html">Torneos PRO</a>
+								<a class="dropdown-item" href="./torneos.html"
+									>🎮 Torneos PRO</a
+								>
 								<a class="dropdown-item" href="./proximamente.html"
-									>Torneos OPEN
+									>👾 Torneos OPEN
 								</a>
 							</div>
 						</li>
@@ -138,10 +160,12 @@
 									href="./docs/AUTORIZACION-MENORES-NEXO-GAMING-FEST.pdf"
 									class="dropdown-item"
 									download="AUTORIZACION-MENORES-NEXO-GAMING-FEST.pdf"
-									>Autorización de menores</a
+									>📋 Autorización de menores</a
 								>
-								<a class="dropdown-item" href="faqs.html">FAQs</a>
-								<a class="dropdown-item" href="formulario.html">Formularios</a>
+								<a class="dropdown-item" href="faqs.html">❓FAQs</a>
+								<a class="dropdown-item" href="formulario.html"
+									>✏️Formularios</a
+								>
 							</div>
 						</li>
 					</ul>
@@ -150,129 +174,65 @@
 		</header>
 
 		<main>
-			<section class="banner2">INSCRIPCIONES</section>
-
-			<section>
-				<p class="texto1">¿Estás interesado en colaborar con nosotros?</p>
-			</section>
-
-			<section>
-				<p class="texto" style="font-size: 0.8rem">
-					Rellena el formulario de inscripción correspondiente y te
-					contactaremos con la mayor brevedad posible
-				</p>
-			</section>
-
-			<section class="boton">
-				<a href="https://forms.gle/ACt1V6ZGBRK5QnEu9" class="boton2">casters</a>
-			</section>
-			<section class="boton">
-				<a href="https://forms.gle/REoyhVnhJzT2zKPs8" class="boton2"
-					>espectáculos</a
-				>
-			</section>
-			<section class="boton">
-				<a href="https://forms.gle/zLi5iQoeD9uV9oRGA" class="boton2"
-					>exhibiciones y charlas</a
-				>
-			</section>
-			<section class="boton">
-				<a
-					href="https://docs.google.com/forms/d/e/1FAIpQLScQynvvty33m0w15B1AyPYbiXP78nDECJF6fxoK_I2XQnLaLg/viewform?usp=sf_link"
-					class="boton2"
-					>expositores</a
-				>
-			</section>
-			<section class="boton">
-				<a
-					href="https://docs.google.com/forms/d/e/1FAIpQLScpfhdhoqpnRX8gmpzCuIAqfpxHNSjGKYpjVYuYnctSZorBIQ/viewform?usp=sf_link"
-					class="boton2"
-					>food truck</a
-				>
-			</section>
-			<section class="boton">
-				<a
-					href="https://docs.google.com/forms/d/e/1FAIpQLSdUzhrvKC9pplNnURyXDByj5Q8_sHgc8Tn8tP4Z-bLRzbukpQ/viewform?usp=sf_link"
-					class="boton2"
-					>marcas</a
-				>
-			</section>
-
-			<section>
-				<p class="texto2">
-					Proximamente se abriran las inscripciones para los jugadores
-				</p>
-			</section>
-
-			<section class="redes">
-				<a
-					href="https://www.youtube.com/channel/UCA33oKV5kVVEmRUdZuJeDTg"
-					target="_blank"
-					><svg
-						xmlns="http://www.w3.org/2000/svg"
-						width="35"
-						height="35"
-						viewBox="0 0 24 24"
-						style="fill: #ffffff"
-					>
-						<path
-							d="M21.593 7.203a2.506 2.506 0 0 0-1.762-1.766C18.265 5.007 12 5 12 5s-6.264-.007-7.831.404a2.56 2.56 0 0 0-1.766 1.778c-.413 1.566-.417 4.814-.417 4.814s-.004 3.264.406 4.814c.23.857.905 1.534 1.763 1.765 1.582.43 7.83.437 7.83.437s6.265.007 7.831-.403a2.515 2.515 0 0 0 1.767-1.763c.414-1.565.417-4.812.417-4.812s.02-3.265-.407-4.831zM9.996 15.005l.005-6 5.207 3.005-5.212 2.995z"
-						></path></svg
-				></a>
-				<a href="https://www.instagram.com/nexogamingfest/" target="_blank"
-					><svg
-						xmlns="http://www.w3.org/2000/svg"
-						width="35"
-						height="35"
-						viewBox="0 0 24 24"
-						style="fill: #ffffff"
-					>
-						<path
-							d="M11.999 7.377a4.623 4.623 0 1 0 0 9.248 4.623 4.623 0 0 0 0-9.248zm0 7.627a3.004 3.004 0 1 1 0-6.008 3.004 3.004 0 0 1 0 6.008z"
-						></path>
-						<circle cx="16.806" cy="7.207" r="1.078"></circle>
-						<path
-							d="M20.533 6.111A4.605 4.605 0 0 0 17.9 3.479a6.606 6.606 0 0 0-2.186-.42c-.963-.042-1.268-.054-3.71-.054s-2.755 0-3.71.054a6.554 6.554 0 0 0-2.184.42 4.6 4.6 0 0 0-2.633 2.632 6.585 6.585 0 0 0-.419 2.186c-.043.962-.056 1.267-.056 3.71 0 2.442 0 2.753.056 3.71.015.748.156 1.486.419 2.187a4.61 4.61 0 0 0 2.634 2.632 6.584 6.584 0 0 0 2.185.45c.963.042 1.268.055 3.71.055s2.755 0 3.71-.055a6.615 6.615 0 0 0 2.186-.419 4.613 4.613 0 0 0 2.633-2.633c.263-.7.404-1.438.419-2.186.043-.962.056-1.267.056-3.71s0-2.753-.056-3.71a6.581 6.581 0 0 0-.421-2.217zm-1.218 9.532a5.043 5.043 0 0 1-.311 1.688 2.987 2.987 0 0 1-1.712 1.711 4.985 4.985 0 0 1-1.67.311c-.95.044-1.218.055-3.654.055-2.438 0-2.687 0-3.655-.055a4.96 4.96 0 0 1-1.669-.311 2.985 2.985 0 0 1-1.719-1.711 5.08 5.08 0 0 1-.311-1.669c-.043-.95-.053-1.218-.053-3.654 0-2.437 0-2.686.053-3.655a5.038 5.038 0 0 1 .311-1.687c.305-.789.93-1.41 1.719-1.712a5.01 5.01 0 0 1 1.669-.311c.951-.043 1.218-.055 3.655-.055s2.687 0 3.654.055a4.96 4.96 0 0 1 1.67.311 2.991 2.991 0 0 1 1.712 1.712 5.08 5.08 0 0 1 .311 1.669c.043.951.054 1.218.054 3.655 0 2.436 0 2.698-.043 3.654h-.011z"
-						></path></svg
-				></a>
-				<a href="https://www.twitch.tv/nexogamingfest" target="_blank"
-					><svg
-						xmlns="http://www.w3.org/2000/svg"
-						width="35"
-						height="35"
-						viewBox="0 0 24 24"
-						style="fill: #ffffff"
-					>
-						<path
-							d="M4.265 3 3 6.236v13.223h4.502V21l2.531.85 2.392-2.391h3.658l4.923-4.924V3H4.265zm15.052 10.691-2.813 2.814h-4.502l-2.391 2.391v-2.391H5.813V4.688h13.504v9.003zm-2.812-5.767v4.923h-1.688V7.924h1.688zm-4.502 0v4.923h-1.688V7.924h1.688z"
-						></path></svg
-				></a>
-				<a href="https://twitter.com/NexoGamingFest" target="_blank"
-					><svg
-						xmlns="http://www.w3.org/2000/svg"
-						width="35"
-						height="35"
-						viewBox="0 0 24 24"
-						style="fill: #ffffff"
-					>
-						<path
-							d="M19.633 7.997c.013.175.013.349.013.523 0 5.325-4.053 11.461-11.46 11.461-2.282 0-4.402-.661-6.186-1.809.324.037.636.05.973.05a8.07 8.07 0 0 0 5.001-1.721 4.036 4.036 0 0 1-3.767-2.793c.249.037.499.062.761.062.361 0 .724-.05 1.061-.137a4.027 4.027 0 0 1-3.23-3.953v-.05c.537.299 1.16.486 1.82.511a4.022 4.022 0 0 1-1.796-3.354c0-.748.199-1.434.548-2.032a11.457 11.457 0 0 0 8.306 4.215c-.062-.3-.1-.611-.1-.923a4.026 4.026 0 0 1 4.028-4.028c1.16 0 2.207.486 2.943 1.272a7.957 7.957 0 0 0 2.556-.973 4.02 4.02 0 0 1-1.771 2.22 8.073 8.073 0 0 0 2.319-.624 8.645 8.645 0 0 1-2.019 2.083z"
-						></path></svg
-				></a>
-				<a href="https://www.tiktok.com/@nexogamingfest" target="_blank"
-					><svg
-						xmlns="http://www.w3.org/2000/svg"
-						width="35"
-						height="35"
-						viewBox="0 0 24 24"
-						style="fill: #ffffff"
-					>
-						<path
-							d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1-.1z"
-						></path></svg
-				></a>
+			<section class="section-padding-2" id="section_3">
+				<div class="container">
+					<div class="row justify-content-center">
+						<div class="col-12 text-center pt-3 mb-3">
+							<h2 class="text-white">INSCRIPCIONES</h2>
+						</div>
+						<div class="col-12 text-center p-3 mb-5">
+							<p class="text-white" style="font-size: 1.3rem">
+								¿Estás interesado en colaborar con nosotros?
+							</p>
+							<p class="text-white" style="font-size: 0.8rem">
+								Rellena el formulario de inscripción correspondiente y te
+								contactaremos con la mayor brevedad posible
+							</p>
+						</div>
+						<div class="col-12 text-center p-3 mb-5">
+							<a class="memo-icon" href="https://forms.gle/ACt1V6ZGBRK5QnEu9"
+								>Casters</a
+							>
+						</div>
+						<div class="col-12 text-center p-3 mb-5">
+							<a class="memo-icon" href="https://forms.gle/REoyhVnhJzT2zKPs8"
+								>Espectáculos</a
+							>
+						</div>
+						<div class="col-12 text-center p-3 mb-5">
+							<a class="memo-icon" href="https://forms.gle/zLi5iQoeD9uV9oRGA">
+								Exhibiciones y Charlas
+							</a>
+						</div>
+						<div class="col-12 text-center p-3 mb-5">
+							<a
+								class="memo-icon"
+								href="https://docs.google.com/forms/d/e/1FAIpQLScQynvvty33m0w15B1AyPYbiXP78nDECJF6fxoK_I2XQnLaLg/viewform?usp=sf_link"
+							>
+								Expositores
+							</a>
+						</div>
+						<div class="col-12 text-center p-3 mb-5">
+							<a
+								class="memo-icon"
+								href="https://docs.google.com/forms/d/e/1FAIpQLScpfhdhoqpnRX8gmpzCuIAqfpxHNSjGKYpjVYuYnctSZorBIQ/viewform?usp=sf_link"
+							>
+								Food truck
+							</a>
+						</div>
+						<div class="col-12 text-center p-3 mb-5">
+							<a
+								class="memo-icon"
+								href="https://docs.google.com/forms/d/e/1FAIpQLSdUzhrvKC9pplNnURyXDByj5Q8_sHgc8Tn8tP4Z-bLRzbukpQ/viewform?usp=sf_link"
+							>
+								Marcas
+							</a>
+						</div>
+					</div>
+				</div>
 			</section>
 		</main>
+
 		<footer class="site-footer">
 			<div class="site-footer-top">
 				<div class="container">
@@ -332,7 +292,7 @@
 										href="./docs/AUTORIZACION-MENORES-NEXO-GAMING-FEST.pdf"
 										class="site-footer-link"
 										download="AUTORIZACION-MENORES-NEXO-GAMING-FEST.pdf"
-										>Autorización de menores</a
+										>📋 Autorización de menores</a
 									>
 								</li>
 							</ul>
