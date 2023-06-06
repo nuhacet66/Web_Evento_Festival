@@ -1,0 +1,271 @@
+@font-face {
+    font-family: Calamity;
+    src: url("./../fonts/Calamity_Outline.otf") format("opentype");
+}
+
+@font-face {
+    font-family: CalamityRegular;
+    src: url("./../fonts/Calamity_Regular.otf") format("opentype");
+}
+@font-face {
+    font-family: AbelProBolt;
+    src: url("./../fonts/Roboto-Black.ttf") format("opentype");
+}
+@font-face {
+    font-family: AbelPro;
+    src: url("./../fonts/Roboto-Bold.ttf") format("opentype");
+}
+
+:root {
+    --primary-color: #000000;
+    --secondary-color: #7D7D7D;
+    --tertiary-color: #F7F7F7;
+    --quaternary-color: #191919;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: var(--quaternary-color);
+    font-family: 'Calamity';
+    font-size: 16px;
+    background-color: #000000;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Calamity';
+    background: var(--secondary-color);
+    background-color: #000000;
+   
+}
+
+header a {
+    text-decoration: none;
+}
+
+header a img.logo {
+    text-decoration: none;
+    max-width: 100%;
+    height: auto;
+    width:35em;
+    transition: transform 0.5s ease;
+}
+
+header a:hover img {
+    transform: scale(1.1);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    margin-top: 5em;
+}
+
+main section.mapa {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    margin: 2em;
+    border: 1px solid var(--secondary-color);
+    border-radius: 5px;
+    background-color: var(--tertiary-color);
+    box-shadow: 0 0 10px var(--secondary-color);
+    margin: 10em 0;
+
+}
+
+  
+  .logo-container img {
+    height:5em;
+    margin-left: 41em;
+  }
+  
+
+  .redes{
+    size: 10px;
+    padding: 10px;
+    gap: 30px;
+    display: flex;
+    margin-top: 2em;
+  }
+
+  .redes a {
+   
+    width:15%;
+    height: 15%;
+  }
+ 
+.banner{
+    font-size:4em;
+    font-family: 'CalamityRegular';
+    color:var(--primary-color);
+    letter-spacing: 3px;
+        display: flex;
+    justify-content: center;
+    background-color:var(--tertiary-color);
+    padding: 0.01em 0.5em;
+    
+}
+
+.banner2{
+    font-size:2.8em;
+    font-family: 'CalamityRegular';
+    color:var(--primary-color);
+    letter-spacing: 3px;
+    background-color:var(--tertiary-color);
+    padding: 0.01em 0.55em 0em 0.6em;
+    margin-top: -3em;
+    
+}
+.boton {
+        
+    color: var(--tertiary-color);
+    font-size:1.4em;
+    font-family: 'AbelProBolt';
+    background-color:var(--primary-color);
+    text-transform: uppercase;
+    margin-top: 2em;
+}
+
+.boton2 {
+        
+    color: var(--tertiary-color);
+    font-size:1.2em;
+    font-family: 'AbelProBolt';
+    background-color:var(--primary-color);
+    text-transform: uppercase;
+    margin-top: 2em;
+}
+
+
+
+    .h2{
+    font-size:2.1em;
+    font-family: 'AbelProBolt';
+    color:var(--tertiary-color);
+   
+    }
+    .texto{
+        color: var(--tertiary-color);
+        font-size:0.99em;
+        font-family: 'AbelProBolt';
+        background-color:var(--primary-color);
+        text-transform: uppercase;
+        margin-top: 0em;
+    }
+    .texto1{
+        color: var(--tertiary-color);
+        font-size: 1.8em;
+        font-family: 'AbelProBolt';
+        background-color:var(--primary-color);
+        text-transform: uppercase;
+        margin-top: 1em;
+    }
+    .texto2{
+        color: var(--tertiary-color);
+        font-size:0.99em;
+        font-family: 'AbelProBolt';
+        background-color:var(--primary-color);
+        text-transform: uppercase;
+        margin-top: 2em;
+    }
+
+    @media (max-width: 768px) {
+        .logo-container img {
+            height: 3em;
+            margin-left: 0;
+        }
+        .redes{
+            size: 10px;
+            padding: 10px;
+            gap: 30px;
+            display: flex;
+            margin-top: 2em;
+            justify-content: center;
+        }
+        .redes a {
+            width:15%;
+            height: 15%;
+        }
+        .banner{
+            font-size:1.8em;
+            font-family: 'CalamityRegular';
+            color:var(--primary-color);
+            letter-spacing: 3px;
+            display: flex;
+            justify-content: center;
+            background-color:var(--tertiary-color);
+            padding: 0.01em 0.55em 0em 0.6em;
+        }
+        .banner2{
+            font-size:1.7em;
+            font-family: 'CalamityRegular';
+            color:var(--primary-color);
+            letter-spacing: 3px;
+            display: flex;
+            justify-content: center;
+            background-color:var(--tertiary-color);
+            padding: 0.01em 0.55em 0em 0.6em;
+        }
+        .h2{
+            font-size:1.2em;
+            font-family: 'AbelProBolt';
+            color:var(--tertiary-color);
+        }
+        .boton {
+        
+            color: var(--tertiary-color);
+            font-size: 1.09em;
+            font-family: 'AbelProBolt';
+            background-color:var(--primary-color);
+            text-transform: uppercase;
+            margin-top: 2em;
+        }
+        .boton2 {
+            color: var(--tertiary-color);
+            font-size: 1.09em;
+            font-family: 'AbelProBolt';
+            background-color:var(--primary-color);
+            text-transform: uppercase;
+            margin-top: 2em;
+        }
+        .texto{
+            color: var(--tertiary-color);
+            font-size: 0.79em;
+            font-family: 'AbelProBolt';
+            background-color:var(--primary-color);
+            text-transform: uppercase;
+            margin-top: 0em;
+        }
+        .texto1{
+            color: var(--tertiary-color);
+            font-size: 1.5em;
+            font-family: 'AbelProBolt';
+            background-color:var(--primary-color);
+            text-transform: uppercase;
+            margin-top: 1em;
+        }
+        .texto2{
+            color: var(--tertiary-color);
+            font-size: 0.79em;
+            font-family: 'AbelProBolt';
+            background-color:var(--primary-color);
+            text-transform: uppercase;
+            margin-top: 2em;
+        }
+
+      
+    }
+        
+    
+  
+  
