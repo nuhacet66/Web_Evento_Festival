@@ -1010,6 +1010,10 @@ table {
 	color: var(--white-color);
 }
 
+.site-footer-link:hover {
+	color: var(--secondary-color);
+}
+
 .site-footer-links {
 	padding-left: 0;
 }
