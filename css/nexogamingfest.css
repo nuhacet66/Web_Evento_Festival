@@ -56,6 +56,18 @@ body {
 /*---------------------------------------
   Our global classes
 -----------------------------------------*/
+.videoEvento {
+	width: 560px;
+	height: 315px;
+}
+
+@media screen and (max-width: 768px) {
+	.videoEvento {
+		width: calc(560px / 2);
+		height: calc(315px / 2);
+	}
+}
+
 .logo-image {
 	max-width: 50%;
 	height: auto;
