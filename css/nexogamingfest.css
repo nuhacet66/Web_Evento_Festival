@@ -418,6 +418,13 @@ strong {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
+	background-color: black;
+	color: aliceblue;
+	background-image: url(./../images/almas-salakhov-BDN8it1_5vo-unsplash.avif);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
 }
 
 .nav-tabs h5 {
