@@ -15,8 +15,9 @@ main {
 
 h1 {
 	font-size: 72px;
-	color: #ffffff;
+	color: #000000;
 	animation: scale 2s infinite;
+	text-align: center;
 }
 
 @media screen and (max-width: 768px) {
